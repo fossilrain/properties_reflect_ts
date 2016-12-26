@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class name="cn.com.bean.Users" table="users" catalog="jx">
+		<id name="id" column="id" type="java.lang.String">
+			<generator class="native"/>
+		</id>
+		<property name="d" column="d" type="java.util.Date"/>
+		<property name="registetime" column="registetime" type="java.lang.String"/>
+		<property name="rightx" column="rightx" type="java.lang.Integer"/>
+		<property name="status" column="status" type="java.lang.Integer"/>
+		<property name="email" column="email" type="java.lang.String"/>
+		<property name="name" column="name" type="java.lang.String"/>
+		<property name="pass" column="pass" type="java.lang.String"/>
+	</class>
+</hibernate-mapping>

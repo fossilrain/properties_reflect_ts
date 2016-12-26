@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+<hibernate-mapping>
+	<class name="cn.com.bean.Ware" table="ware" catalog="jx">
+		<id name="number" column="number" type="java.lang.String">
+			<generator class="native"/>
+		</id>
+		<property name="daytime" column="daytime" type="java.lang.String"/>
+		<property name="price" column="price" type="java.lang.Double"/>
+		<property name="description" column="description" type="java.lang.String"/>
+		<property name="name" column="name" type="java.lang.String"/>
+		<property name="address1" column="address1" type="java.lang.String"/>
+		<property name="address2" column="address2" type="java.lang.String"/>
+		<property name="address3" column="address3" type="java.lang.String"/>
+	</class>
+</hibernate-mapping>

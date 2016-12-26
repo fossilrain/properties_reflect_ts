@@ -1,0 +1,6 @@
+ ResultSetMetaData                          getMetaData() 
+ Types
+ Pattern
+ create table base(name varchar(13),age int);
+ insert into base values('xxx1',23),('xxx2',33),('xxx3',53);
+ 
